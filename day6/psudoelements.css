@@ -1,0 +1,28 @@
+ /* psdo element use  double colon ().intro::element_name)  */
+
+ .intro::first-letter{
+    color: rgb(110, 107, 107);
+    font-size: 30px;
+    font-weight: bold;
+ }
+
+ .intro::first-line{
+    color: hotpink;
+    font-style: italic;
+ }
+
+ .box::before{
+    content:"THIS CONTENT IS IN CSS";
+    color: blueviolet;
+ }
+
+ .box::after{
+    content:"THIS CONTENT IS IN CSS";
+    color: rgb(131, 161, 22);
+ }
+
+
+::selection{
+    background-color: yellow;
+    color: black;
+}

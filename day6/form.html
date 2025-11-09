@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FORM</title>
+        <link rel="stylesheet" href="form.css">
+    </head>
+
+    <body>
+        
+        <section class="bg_img">
+
+            <h1> SURVEY FORM</h1>
+
+          <section class="form-css">
+
+            <form method="post">
+                <p align="center">LET US KNOW HOW WE CAN IMPROVE</p><br>
+                <table cellpadding="15" cellspacing="1">
+                 <tr>  
+                 <td class="td_right"><label>Name:</label></td>
+                 <td><input type="text" placeholder="ENTER YOUR NAME" required></td>
+                 </tr>
+
+                 <tr>
+                 <td class="td_right"><label>Email:</label></td>
+                 <td  ><input type="email" placeholder="ENTER YOUR EMAIL" required></td>
+                 </tr>
+
+                <tr>
+                <td class="td_right"><label>Age:</label></td>
+                <td><input type="number" placeholder="AGE" required></td>
+                </tr>
+
+                <tr>
+                    
+                    <td></td>
+                    <td rowspan="1"><input type="file"></td>
+                </tr>
+
+                <tr>
+                <td class="td_right"> 
+                <label>Which option best describes your current role ?:</label>
+                </td>
+                <td  >
+                 <select name="role">
+                     <option>IT</option>
+                     <option>CEO</option>
+                     <option>HR</option>
+                 </select>
+                </td>   
+                </tr>
+
+                <tr>
+                <td class="td_right"><label>How likly is that you would recommend this program to a friend?:</label></td>                              
+                   <td  ><input type="radio" name="recomment" value="Defintly">Defintly<br>
+                   <input type="radio" name="recomment" value=" May be">May be<br>
+                   <input type="radio" name="recomment" value=" Not sure">Not sure<br></td>
+                </tr>
+
+                <tr><td class="td_right"><label>What do you like most here:</label></td>
+                     <td  ><select name="Like">
+                     <option>Class</option>
+                     <option>Office</option>
+                     <option>Hr</option>
+                     </select></td></tr>
+                
+                 <tr>
+                 <td class="td_right"><label>Things that should be improved in future check that all apply: </label></td>
+                 <td><input type="checkbox" name="future" value="class">Front-end Projects <br>
+                 <input type="checkbox" name="future" value="office">Back-end Projects <br>
+                 <input type="checkbox" name="future" value="systems">Data Vistualization<br></td>
+                 </tr>
+
+                <tr>    
+                <td class="td_right"><label>Any comments or suggetions: </label></td>
+                <td><textarea rows="3" cols="29">Enter your comments</textarea></td>
+                </tr>
+                                              
+            </table>
+           <center><input  id="click" type="submit" value="submit"></center> 
+            
+            </form>
+         </section>
+
+        </section>
+         
+
+    </body>
+
+</html>

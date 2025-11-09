@@ -1,0 +1,25 @@
+a:hover{
+    color: crimson;
+    text-decoration:underline;
+
+}
+
+
+input:focus{
+    border: 3px solid gold;
+    outline: none;
+    width: 300px;
+}
+
+li:first-child{
+    color: darkorange;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+li:last-child{
+    color: orchid;
+}
+
+a:active{
+    color: rgb(0, 255, 94);
+}
