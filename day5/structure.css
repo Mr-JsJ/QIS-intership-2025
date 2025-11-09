@@ -1,0 +1,25 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: aqua;
+
+}
+
+h1{ 
+    color: rgb(29, 7, 235);
+
+}
+
+.box{
+    align-self: center;
+    width: 300px;
+    padding: 30px;
+    border: 10px solid rgb(49, 87, 14);
+    margin: auto ;
+    background-color: rgb(98, 218, 104);
+    text-align: center;
+
+}
+
+
+
