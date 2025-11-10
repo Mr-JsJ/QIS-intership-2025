@@ -1,0 +1,39 @@
+body,ul{
+    padding: 0%;
+    margin: 0%;
+}
+
+.navbar{
+    width: 100%;
+    background-color: rgb(85, 74, 61);
+    position: fixed;
+    top:0%;
+    padding:20px;
+}
+
+.navbar ul{
+list-style: none;
+display: flex;
+justify-content: center;
+
+}
+
+.navbar li{
+    margin: 0 20px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    transition: color 2s;
+}
+
+.navbar a:hover{
+    color: aquamarine;
+}
+
+.content{
+    text-align: center;
+    margin-top: 80px
+}
