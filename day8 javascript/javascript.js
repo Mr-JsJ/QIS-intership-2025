@@ -1,0 +1,1 @@
+document.writeln("HERE THE JAVASCRIP IS IN EXTERNAL FILE");
