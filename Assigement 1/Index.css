@@ -1,0 +1,218 @@
+body,ul{
+    padding: 0%;
+    margin: 0%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.navbar{
+    width: 100%;
+    background-color: rgb(20, 20, 20);
+    position: fixed;
+    top:0%;
+    padding:20px;
+    display: flex;
+
+}
+
+.navbar ul{
+list-style: none;
+display: flex;
+justify-content: right;
+padding-left: 30%;
+}
+
+.navbar li{
+    margin: 10px 20px;
+    
+}
+
+.navbar a{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.navbar a:hover{
+    color: rgb(254, 197, 8);
+}
+
+.login{
+    padding: 10px ;
+    background-color: rgb(254, 197, 8);
+    font-weight: bold;
+    
+}
+
+.navbar select{
+    text-decoration: none;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    border: 0;
+    font-size: 20px;
+}
+
+.navbar::before{
+    content:"CHARITY.";
+    color: rgb(252, 251, 253);
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0% 10% ;
+    
+ }
+ 
+.content{
+    background-image: url(img/home.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    height: 900px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+.content h1{
+    margin-left: 10%;
+    margin-top: 300px;
+    margin-bottom: 0%;
+    color: rgb(249, 248, 248);
+    font-size: 100px;
+    font-weight: 1000;
+}
+
+
+.content p{
+    margin-left: 10%;
+    margin-top: 0px;
+    margin-bottom: 0%;
+    color: rgb(249, 248, 248);
+    font-size: 35px;   
+}
+
+.content a{ 
+    
+    text-decoration: none;
+    margin-left: 200px;
+    margin-top: 15px;
+    margin-right: 1560px;
+    margin-bottom: 0%;
+    padding: 10px 25px;
+    background-color: oklch(85.078% 0.17293 87.283);
+    font-weight: bold;
+    color: white;
+    border: 0px;    
+    text-align: center;
+
+}
+
+
+
+ .content table {
+    background-color: oklch(85.078% 0.17293 87.283);
+    width: 65%;
+    margin: 280px auto 10px auto;
+    border-spacing: 10px 10px; 
+}
+
+.content th {
+    color: rgb(0, 0, 0);
+    text-align: left;
+    padding: 2px 30px; 
+    vertical-align: top;
+    border-right: 2px solid #ffffff;
+    position: relative; 
+    padding-left: 60px; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+}
+
+.content td {
+    text-align: justify;
+    padding: 2px 3px;
+    color: white;
+    vertical-align: top;
+    border-right: 2px solid #ffffff;
+    position: relative;
+    padding-left: 60px; 
+    padding-right: 80px;
+}
+
+
+#donation::before {
+    color: #ffffff;
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f555";
+    font-size: 30px;
+    position: absolute;
+    left: 5px;
+    top: 50%;
+   
+}
+
+#volunteer::before {
+    color: #ffffff;
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f004";
+    font-size: 30px;
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    
+}
+
+#scholarship::before {
+    color: #ffffff;
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f19d";
+    font-size: 30px;
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    
+}
+
+
+.cards h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.cards p{
+     text-align: center;
+     margin-top: 10px;
+    
+}
+
+.cards table{
+    width: 8%;
+    margin: 50px auto 10px auto;
+    border-spacing: 200px 10px; 
+    
+}
+
+.card-1{
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    
+    
+}
+
+.card-1 img{
+    width: 100%;
+    height: 150px; 
+    object-fit: cover;
+}
+
+
+
