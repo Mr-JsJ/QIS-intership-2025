@@ -1,2 +1,2 @@
-# Intership-2025-
+# QIS-Intership-2025
 QIS INTERSHIP 6 MONTHS
