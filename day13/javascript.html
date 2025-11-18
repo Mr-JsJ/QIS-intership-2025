@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>STRING FUNCTIONS</title>
+
+    </head>
+    <body>
+        <script>
+            let message="HELLO  world";
+            document.writeln(message.toUpperCase()+"<br>");
+            document.writeln(message.toLowerCase()+"<br>");
+            document.writeln(message.slice(1,5)+"<br>");
+            document.writeln(message.slice(-4,)+"<br>");
+            document.writeln(message.substring(3,6)+"<br>");
+            document.writeln(message.includes("world")+"<br>");
+            document.writeln(message.replace("world","Mister")+"<br>");
+            document.writeln(message.split("o")+"<br>");
+            document.writeln(message.charAt("0")+"<br>");//return the char at the specific position.
+            document.writeln(message.indexOf("o")+"<br>");//return the position of charater in the string.
+
+
+            let msg=" hi   ,    HELLO world";
+            document.writeln(msg.trim()+"<br>");//remove the extra space b/w the letters.
+            
+        </script> 
+
+
+        <!-- ARRAY -->
+         
+         <script>
+            let items=["SHEJIN",23,true,null,[1,2,3]];
+            document.writeln(items[0]+"<br>");
+            document.writeln(items[1]+"<br>");
+            document.writeln(items[2]+"<br>");
+            document.writeln(items[3]+"<br>");
+            document.writeln(items[4]+"<br>");
+            document.writeln(items.indexOf("SHEJIN")+"<br>");//return the position of element in the array.
+            document.writeln(items+"<br>");
+            items.push("GRAPE");//add new element to the array.
+            document.writeln(items+"<br>");
+            items.pop();//remove last element from the array.
+            document.writeln(items+"<br>");
+            items.unshift("FIRST")//add new element to the beginning of the array.
+            document.writeln(items+"<br>");
+            items.shift();//remove the firat element of the array.
+            document.writeln(items+"<br>");
+            document.writeln(items.sort()+"<br>");//sort the the array.
+            document.writeln(items.indexOf(0)+"<br>");
+            document.writeln(items.slice(1,4)+"<br>");
+         </script>
+
+
+    </body>
+</html>
