@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            loop
+        </title>
+    </head>
+    <body>
+        <script>
+            // ===========================for.......in========================
+//1
+            
+            // const person={name:"Alice",age:"25",city:"paris"};
+            // for(let key in person){
+            //     document.writeln(key);
+            //     document.writeln(": "+person[key]+"<br>");
+
+            // }
+//2
+            // const color=["red","green","blue"];
+            // for(let key in color){
+            //     document.writeln(key);
+            //     document.writeln(": "+color[key]+"<br>");
+
+            // }
+
+//3
+            // const person={name:"Alice",age:"25",city:"Kochi",state:"Kerala"};
+            // i=0;
+            // for(let key in person){
+            //     i++;
+            // }
+            // document.writeln(i);
+//3
+            // const student={name:"John",grade:10,marks:85};
+            // let i=0;
+            // for(let key in student){
+            //     document.writeln(key);
+            //     document.writeln(": "+student[key]+"<br>");
+            //     if(typeof(student[key])==="number"){
+            //         i++;
+            //     }
+            // }
+            // document.writeln("No.of keys that have numaric values : "+i);
+
+//4
+
+            // const student={Alice:85,Bob:92,Charlie:78};
+            // let sum=0;
+
+            // for(let key in student){
+            //     sum=sum+student[key];
+            // }
+            // document.writeln("TOTAL MARK OF ALL STUDENTS IS : "+sum);
+
+            // ==========================for....of============================
+//1
+            // const fruits=["apple","banana","cherry"];
+            // for(let value of fruits)
+            //  {
+            // document.writeln(value);
+            //  }
+ //2          
+            // let str="JITHIN S JOHN";
+            // for(char of str)
+            // {
+            //   document.writeln(char);
+            // }
+//3
+            // const num=[1,2,3,4,5,6,7,8,9,0,10];
+            // let sum=0;
+            // for(let n of num){
+            //     sum=sum+n;
+            // }
+            // document.writeln("SUM ="+sum);
+//4
+            // const num=[1,2,3,42,5,6,74,8,9,0,10,23];
+            // for(let n of num){
+            //     if (n>10){
+            //  document.writeln(n);
+
+            //     }
+            // }
+
+
+//5
+            // let str="Hello how are?";
+            // let count=0;
+            // for(char of str){
+            // if(["a","e","i","o","u","A","E","I","O","U"].includes(char)){
+            //     count++;
+            // }
+            // }
+            // document.writeln(count);
+
+//6
+
+            // const arr=[5,7,3,22,44,66,88,33,55,80,10];
+            // let small=Infinity;
+            // let large=-Infinity;
+            // for(i of arr){
+
+            //     if(small>=i){
+            //         small=i;
+            //     }
+            //     if(large<i){
+            //         large=i;
+            //     }
+
+            // }
+            // document.writeln("SMALLEST ELEMENT OF ARRAY:"+small+"<br>");
+            // document.writeln("LARGEST ELEMENT OF ARRAY:"+large);
+
+
+            // let words=["hello ","Shejin ","I ","am ","chottu ","lets ","enjoy ","...."];
+            // let string="";
+            // for(word of words){
+            //     string+=word;
+            // }
+            // document.writeln(string);
+
+
+            //======================for....each=====================================
+
+//1
+            //     const fruits=["apple","banana","cherry"];
+            //    fruits.forEach(function(value){
+            //     document.writeln(value+"<br>");     
+            //    });
+
+//2
+            // const arr=[1,2,3,4,5];
+            // let arr2=[];
+          
+            // arr.forEach(function(num,index){
+            //    let sqr=num*num;
+            //    arr2[index]=sqr;
+            // });
+
+            //  arr2.forEach(function(num){
+            //    document.writeln(num);
+            // });
+
+//3
+            // const fruits=["apple","banana","cherry"];
+            // fruits.forEach(function(value,index){
+            //     document.writeln("INDEX: "+index+" VALUE: "+value+"<br>");
+            // });
+
+//4
+
+            // let numbers=[1,2,3,4,5,6,7,8,9,10,11,12,13];
+
+            // numbers.forEach(function(value,index){
+            //     if(value%2!==0){
+            //         document.writeln(value);
+            //     }            
+            // });
+
+//5            
+
+            // let numbers=[1,2,3,4,5,6,7,8,9,10,11,12,13];
+            // let sum=0;
+            // numbers.forEach(function(value,index){
+            //     if(value%2===0){
+            //      sum=sum+value;   
+            //     }            
+            // });
+            // document.writeln("SUM="+sum);
+
+//6
+
+            // let array=[1,2,3,"shejin","josh","chottu",69,99];
+            // count=0;
+            // array.forEach(function(value){
+            //     if(typeof(value)=="string"){
+            //         count++;
+
+            //     }
+            // })
+            // document.writeln("NO.OF ELEMENTS ARE STRING :"+count);
+
+
+
+
+        
+
+
+
+
+
+
+
+        </script>
+    </body>
+
+</html>
