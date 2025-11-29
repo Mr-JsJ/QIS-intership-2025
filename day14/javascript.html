@@ -84,6 +84,116 @@
             address:{city:"Annikadu",state:"Kerala"}
         };
 
-       
+        document.writeln(person.name+"<br>");
+        document.writeln(person.age+"<br>");
+        document.writeln(person.address.city+"<br>");
+        document.writeln(person.address.state+"<br>");
+        document.writeln(person.address+"<br>");
+
+       </script> -->
+
+       <!-- for in is a loop used to iterate overe the keys or propertynames of an object -->
+
+       <!-- 
+        syntax:
+
+        for(variable in object) 
+        {
+        //body
+        }
+        -->
+
+       <!-- <script>
+        let user={
+            name:"Arun",
+            age:22,
+            city:"Kochi"
+        };
+        for(let key in user){
+            document.writeln(key);
+            document.writeln(user[key]);
+        }
+
+       </script> -->
+
+       <!-- <script>
+        let user={
+            name:"Arun",
+            age:22,
+            address:{city:"Kochi",state:"Kerala"}
+        };
+        for(let key in user){
+            if(typeof user[key]==="object"){
+                for(let subkey in user[key]){
+                    document.writeln(subkey+":"+user[key][subkey]+"<br>");
+                }
+            }else{
+                    document.writeln(key+":"+user[key]+"<br>");
+
+            }
+        }
+       </script> -->
+
+       <!--***************************************************************** -->
+
+       <!-- for...of
+        
+       works on iterables:Array,string aets ,etc.
+       does not work directly on plain objects
+       provides values,not keys
+       syntax:
+
+       for(variable  of iterable  )
+       {
+       //body
+       }
+       -->
+
+       <!--***************************************************************** -->
+
+
+       <!-- <script>
+
+        let num=[10,20,30,40]
+        for(let i of num){
+            document.writeln(i+"<br>");
+        }
+
+            document.writeln("<br>")
+            document.writeln("<br>")
+
+
+         let str="Shejin Jose"
+        for(let j of str){
+            document.writeln(j+"<br>");
+        }
+
+        let colors=new Set(["red","yellow","blue"]);
+        for(let color of colors)
+        {
+            document.writeln(color+"<br>");
+        }
+
+       </script>
+  -->
+
+
+  <!-- ************************************************************************* -->
+
+
+  <!-- foreach() is a built-in method used to loop through arrays ,sets
+   it runs a function for every elements in the collections.
+   
+   syntax:
+   
+   array.forEach(function(item,index){
+   //code;
+   })-->
+
+
+  <!-- ************************************************************************* -->
+   
+
+
     </body>
 </html>
