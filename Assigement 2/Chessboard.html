@@ -11,7 +11,36 @@
      
 
         <table>
-       
+        <script>
+            for(let r=1;r<=8;r++){
+                document.writeln("<tr>")
+                 if(r%2!==0){
+                    for(let odd=1;odd<=8;odd++){
+                        if(odd%2!=0){
+                            document.writeln('<td class="boxw"></td>');
+                        }
+                        else{
+                            document.writeln('<td class="boxb"></td>');
+
+                        }
+                    }
+
+                 }
+                 else{
+                    for(let even=1;even<=8;even++){
+                        if(even%2==0){
+                            document.writeln('<td class="boxw"></td>');
+                        }
+                        else{
+                            document.writeln('<td class="boxb"></td>');
+
+                        }
+                    }
+
+                 }
+                 document.writeln("</tr>")
+            }
+        </script>
       </table>
 
         
