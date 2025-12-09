@@ -1,1 +1,299 @@
 document.writeln("HERE THE JAVASCRIP IS IN EXTERNAL FILE");
+
+document.writeln("<br>====================================================================<br>");
+
+document.write("HELLO WORLD");
+console.log("THIS IS CONSOL.LOG");
+document.writeln("<br>===================================================================<br>");   
+
+// =======================================================================================================================
+
+
+// alert("THIS IS A ALERT MESSAGE");
+
+
+// =======================================================================================================================
+
+
+document.writeln("<h1>hello this line us h1 tag</h1>")
+
+document.writeln("<br>===================================================================<br>");   
+
+
+// =======================================================================================================================
+
+
+  // variable declaration 
+        var a=20;
+        var a=30;
+        document.write(a);
+
+        // let b=10;
+        // let b=35;
+        // document.write(b);
+        // ------Difference b/w var and let variable declaration------
+
+          //  differens b/w var and let "let variables are only accesable in the block where it is declared"  
+
+
+
+document.writeln("<br>===================================================================<br>");   
+
+// =======================================================================================================================
+
+
+        // datatypes
+        // string
+
+        let name="SHEJIN"
+        let addr='Kottayam'
+
+        document.writeln(name);
+        document.writeln("<br>");
+        document.writeln(typeof name);
+        document.writeln("<br>");
+        document.writeln(addr);
+        document.writeln("<br>");
+        document.writeln("<br>");
+        // numbers
+
+        let num1=20;
+        let num2=20.333;
+        document.writeln(num1);
+        document.writeln("<br>");
+        document.writeln(typeof num1);
+        document.writeln("<br>");
+        document.writeln("<br>");
+        //boolean
+
+        let val1=true;
+
+        document.writeln(val1);
+        document.writeln("<br>");
+        document.writeln(typeof val1);
+        document.writeln("<br>");
+        document.writeln("<br>");
+
+        //undefined
+
+        let un;
+        document.writeln(un);
+        document.writeln("<br>");
+        document.writeln(typeof un);
+        document.writeln("<br>");
+        document.writeln("<br>");
+
+        //null
+        let word=null;
+
+        document.write(word);
+        document.writeln("<br>");
+        document.write(typeof word);
+        document.writeln("<br>");
+        document.writeln("<br>");
+              
+
+document.writeln("<br>===================================================================<br>");   
+
+// =======================================================================================================================
+
+       //operators 
+    
+       document.writeln("h1>OPERATIONS</h1>")
+       
+        //+,-,/,*
+
+        let b=20;
+        let c=5;
+        let d=3;
+
+        document.writeln("ADDITION");
+        document.writeln(b+c);
+        document.writeln("<br>");
+        document.writeln("<br>");
+        document.writeln("SUBTRACTION");
+        document.writeln(b-c);
+        document.writeln("<br>");
+        document.writeln("<br>");
+        document.writeln("MULTIPLCATION");
+        document.writeln(b*c);
+        document.writeln("<br>");
+        document.writeln("<br>");
+        document.writeln("DIVISION");
+        document.writeln(b/c);
+        document.writeln("<br>");
+        document.writeln("<br>");
+        document.writeln("MODULUS");
+        document.writeln(b%d);
+        document.writeln("<br>");
+        document.writeln("<br>");
+
+
+        //floor function in math
+
+        let e=40;
+        let f=6;
+
+        document.writeln(Math.floor(e/f));
+        document.writeln("<br>");
+        document.writeln("<br>");
+
+        //assigement operator
+
+        let g=6;
+        g+=4;
+        document.writeln(g);
+        document.writeln("<br>");
+        document.writeln("<br>");
+
+         //comparision operator
+
+        document.writeln(5==5);
+        document.writeln("<br>");
+        document.writeln(5=="5");
+        document.writeln("<br>");
+        document.writeln(5==="5") //also compare the data type
+        document.writeln("<br>");
+        document.writeln("<br>");
+        document.writeln(10!=15);
+        document.writeln("<br>");
+        document.writeln(5!=="15") //also compare the data type
+        document.writeln("<br>");
+        document.writeln("<br>");
+        document.writeln(10>5);
+        document.writeln("<br>");
+        document.writeln(10>15);
+        document.writeln("<br>");
+        document.writeln(10>=10);
+        document.writeln("<br>");
+        document.writeln(10<15);
+        document.writeln("<br>");
+        document.writeln("<br>");
+        document.writeln("<br>");
+
+           //logical operator
+        let h=10;
+        let i=20;
+
+        document.writeln(h==10 && i==20)
+        document.writeln("<br>");
+        document.writeln(h==10 & i==20) //bitwise operator 
+        document.writeln("<br>");
+        document.writeln("<br>");
+        document.writeln(h==10 && i==30)
+        document.writeln("<br>");
+        document.writeln(h==10 & i==30) //bitwise operator
+        document.writeln("<br>");
+        document.writeln("<br>");
+
+
+        //OR OPERATOR ||
+
+        document.writeln(h==10 || i==20)
+        document.writeln("<br>");
+        
+        document.writeln(h==10 || i==30)
+        document.writeln("<br>");
+
+        document.writeln(h==20 || i==30)
+        document.writeln("<br>");
+        document.writeln("<br>");
+
+        let first="SHEJIN";
+        let last="JOSE";
+        let fullname=first+" "+last;
+        document.write(fullname);
+
+
+document.writeln("<br>===================================================================<br>");   
+
+// =======================================================================================================================
+
+        //conditional statements
+        document.writeln(" <h1>CONDTIONAL STATEMENTS</h1> ");
+
+         //if statement
+         let j=2;
+        if(j>0){
+        document.writeln("the value is true");
+         }
+       
+
+        document.writeln("<br>");
+        document.writeln("<br>");
+
+        if(true)
+          {
+        let k=19;
+        console.log(k);
+        document.writeln(k);
+         }
+        console.log(k);
+        document.writeln(k);
+
+        document.writeln("<br>");
+        document.writeln("<br>");
+
+
+        if(true)
+        {
+        var l=19;
+        console.log(l);
+        document.writeln(l);
+        }
+        console.log(l);
+        document.writeln(l);
+
+        document.writeln("<br>");
+        document.writeln("<br>");
+
+
+        // if / else :statement
+
+         let m=3;
+         if(m>0)
+            {
+         document.writeln("the value is true (if)");
+         }
+        else
+            {
+        document.writeln("the value is false (else)");
+        }
+
+        document.writeln("<br>");
+        document.writeln("<br>");
+
+ 
+
+        // if / else if /else :statement
+
+        let n=0;
+         if(n>0){
+        document.writeln("+ integer");
+         }
+        else if(n<0){
+        document.writeln("- integer");
+        }
+        else{
+        document.writeln("0");
+         }
+
+        document.writeln("<br>");
+        document.writeln("<br>");
+
+
+
+        //odd/even   
+        let o=7;
+       if(o%2==0){
+        document.writeln("THE NUMBER IS EVEN");
+        }
+       else{
+        document.writeln("THE NUMBER IS ODD");
+
+        }
+
+
+document.writeln("<br>===================================================================<br>");   
+
+// =======================================================================================================================
