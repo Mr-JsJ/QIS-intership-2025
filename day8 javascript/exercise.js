@@ -1,26 +1,16 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>
-            CHARITY
-        </title>
-
-    </head>
-    <body>
 
 
-        <script>
-            document.write("HELLO STUDENT");
-            alert("WELCOM TO JS");
-            console.log("JAVASCRIPT IS FUN");
-            console.log(15+25);
-            document.write("<h2>LEARNING JS</h2>");
-        </script>
+document.write("HELLO STUDENT");
+alert("WELCOM TO JS");
+console.log("JAVASCRIPT IS FUN");
+console.log(15 + 25);
+document.write("<h2>LEARNING JS</h2>");
 
-        <br>
-        <br>
+document.writeln("<br>===================================================================<br>");
 
-        <script>
+
+// =======================================================================================================================
+
             let name="jithin s john";
             document.writeln(name);
             document.writeln("<br>");
@@ -199,56 +189,3 @@
 
 
 
-           
-
-            
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-             
-
-            
-
-
-
-
-
-
-        </script>
-       
-
-         
-    </body>
-</html>
