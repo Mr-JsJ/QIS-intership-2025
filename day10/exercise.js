@@ -1,14 +1,9 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>
-            JAVASCRIPT
-        </title>
-    </head>
-    <body>
 
-        <!-- <script>
-            let temp=Number(prompt("ENTER THE TEMPERATURE:"));
+// =================================================== PROMPT ==================================================================
+
+document.writeln("TEMPERATURE");
+
+let temp=Number(prompt("ENTER THE TEMPERATURE:"));
             if(temp>40){
                 document.writeln("VERY HOT");
             }else if(temp>30){
@@ -22,18 +17,20 @@
             }
 
 
-        </script> -->
+document.writeln("<br>===================================================================<br>");
 
-<!-- 
-        <script>
-            let amt=Number(prompt("ENTER THE AMOUNT:"));
+// =======================================================================================================================
+
+document.writeln("DISCOUNT");
+
+ let amount=Number(prompt("ENTER THE AMOUNT:"));
             let discount;
-            if(amt>=500){
+            if(amount>=500){
                 if(amt>=1000){
-                    discount=amt*(20/100);
+                    discount=amountt*(20/100);
                     document.writeln("YOUR DISCOUNT IS "+discount);
                 }else{
-                    discount=amt*(10/100);
+                    discount=amountt*(10/100);
                     document.writeln("YOUR DISCOUNT IS "+discount);
 
                 }
@@ -43,10 +40,14 @@
             }
 
 
-        </script> -->
+document.writeln("<br>===================================================================<br>");
 
-        <!-- <script>
-            let char=prompt("ENTER THE CHARATER");
+// =======================================================================================================================
+
+
+document.writeln("LOWER CASE OR UPPER CASE");
+
+ let char=prompt("ENTER THE CHARATER");
             if(typeof(char)==="string"){
 
                   if(char>="a"&& char<="z")
@@ -63,10 +64,13 @@
                 document.writeln("NOT AN ALPHABET");
             }
 
-        </script> -->
 
-        <!-- <script>
-            let mark=Number(prompt("ENTER THE NUMBER:"));
+document.writeln("<br>===================================================================<br>");
+
+// =======================================================================================================================
+document.writeln("GRADES");
+
+ let mark=Number(prompt("ENTER THE NUMBER:"));
             if(mark>=50){
                 if(mark>=90){
                     document.writeln("A GRADE");
@@ -84,12 +88,15 @@
                 }
             }
 
-        </script> -->
+
+document.writeln("<br>===================================================================<br>");
+
+// =======================================================================================================================
+
+document.writeln("BALANCES WITHDRAWAL");
 
 
-<!-- 
-        <script>
-            let bal=10000;
+ let bal=10000;
             let amt=Number(prompt("ENTER THE AMOUNT:"))
             if(amt%100===0){
                 if(amt<=bal){
@@ -103,10 +110,13 @@
 
             }
 
-        </script> -->
-<!-- 
-        <script>
-            let color=prompt("ENTER THE COLOR:");
+document.writeln("<br>===================================================================<br>");
+
+// =======================================================================================================================
+
+document.writeln("TRAFFIC");
+
+     let color=prompt("ENTER THE COLOR:");
             if(color==="red")
         {
             let wait=prompt("DO YOU WANT TO CROSS (Y/N):");
@@ -126,11 +136,15 @@
             document.writeln("GO");
          }
 
-        </script> -->
 
-        <!-- <script>
+document.writeln("<br>===================================================================<br>");
 
-            let num=Number(prompt("ENTER THE NUMBER:"));
+// =======================================================================================================================
+
+document.writeln("MULTIPLES");
+
+
+let num=Number(prompt("ENTER THE NUMBER:"));
             if(num%3===0){
             if(num%5===0){
                 document.writeln("MULTIPLE OF 5 AND 3.");
@@ -148,13 +162,17 @@
 
             }
 
-        </script> -->
+
+document.writeln("<br>===================================================================<br>");
+
+// =======================================================================================================================
 
 
-        <script>
-            let amt=Number(prompt("ENTER THE AMOUNT"));
-            if (amt>=199){
-                if(amt>=399){
+document.writeln("RECHARGE");
+
+  let amt2=Number(prompt("ENTER THE AMOUNT"));
+            if (amt2>=199){
+                if(amt2>=399){
                     document.writeln("FULL TALKTIME + DATAPACK");
                 }
                 else{
@@ -162,8 +180,8 @@
 
                 }
             }
-            if(amt<=199){
-                if(amt>=99){
+            if(amt2<=199){
+                if(amt2>=99){
                     document.writeln("FULL TALKTIME ONLY");
 
                 }
@@ -172,6 +190,8 @@
                     
                 }
             }
-        </script>
-    </body>
-</html>
+
+
+document.writeln("<br>===================================================================<br>");
+
+// =======================================================================================================================
