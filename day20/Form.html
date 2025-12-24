@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FORM</title>
+    <style>
+        .error {
+            color: red;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+
+<form onsubmit="return formvalidation()">
+
+    <label>NAME:</label>
+    <input type="text" id="name"><br>
+    <span id="nameError" class="error"></span><br><br>
+
+    <label>EMAIL:</label>
+    <input type="text" id="email"><br>
+    <span id="emailError" class="error"></span><br><br>
+
+    <label>MOBILE:</label>
+    <input type="text" id="mobile"><br>
+    <span id="mobileError" class="error"></span><br><br>
+
+    <label>PASSWORD:</label>
+    <input type="password" id="password"><br>
+    <span id="passwordError" class="error"></span><br><br>
+
+    <label>CONFIRM PASSWORD:</label>
+    <input type="password" id="confirm"><br>
+    <span id="confirmError" class="error"></span><br><br>
+
+    <button type="submit">Submit</button>
+
+</form>
+
+<script src="./formvalid.js"></script>
+
+</body>
+</html>
