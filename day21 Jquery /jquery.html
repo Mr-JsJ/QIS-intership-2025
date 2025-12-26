@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JQUERY</title>
+    <!-- <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script> -->
+    <script src="jquery.js"></script> 
+</head>
+<body>
+    <h1>HELLO WORLD!!!!</h1>
+
+    <script>
+        $(document).ready(function(){
+           $("h1").css("color","blue");
+        })
+
+document.writeln("<br>===================================================================<br>");
+
+    </script>
+<!-- // ======================================================================================================================= -->
+
+    
+
+    <p class="para">Paragraph1</p>
+    <p class="para">Paragraph2</p>
+    <p id="unique">Paragraph1</p>
+
+    <script>
+        $(document).ready(function(){
+            $(".para").css("color","red");
+            $("#unique").css("font-weight","bold");
+            $("p").css("background","yellow");
+        });
+
+
+document.writeln("<br>===================================================================<br>");
+
+
+    </script>
+<!-- // ======================================================================================================================= -->
+
+
+
+    <button id="btn">CLICK ME!</button>
+    <p id="demo"></p>
+
+    <script>
+        $(document).ready(function(){
+            $("#btn").click(function(){
+                $("#demo").text("!!SHEJIN JOSEEE!!")
+            })
+        })
+
+
+document.writeln("<br>===================================================================<br>");
+
+    </script>
+<!-- // ======================================================================================================================= -->
+
+
+
+    <!-- KEY UP -->
+     <style>
+        #box{
+            width: 100px;
+            height: 100px;
+            background-color: coral;
+            text-align: center;
+            margin: 10px;
+        }
+     </style>
+
+    <div id="box">HOVER ME</div>
+
+    <input type="text" id="input" placeholder="TYPE HERE">
+    <h4 id="display"></h4>
+
+    <script>
+        $(document).ready(function(){
+            $("#box").hover(
+                function(){$(this).css("background-color","yellow");},
+                function(){$(this).css("background-color","coral");}
+
+            );
+
+            $("#input").keyup(function(){
+                $("#display").text($(this).val());
+            });
+        });
+
+
+document.writeln("<br>===================================================================<br>");
+
+    </script>
+<!-- // ======================================================================================================================= -->
+
+
+
+
+
+    <button id="hide">HIDE</button>
+    <button id="show">SHOW</button>
+    <p id="para">THIS IS A PARAGRAPH!!!.....</p>
+
+    <script>
+        $(document).ready(function(){
+            $("#hide").click(function(){
+                $("#para").hide();
+            });
+            $("#show").click(function(){
+                $("#para").show();
+            });
+        })
+
+
+document.writeln("<br>===================================================================<br>");
+
+    </script>
+<!-- // ======================================================================================================================= -->
+
+
+
+
+    <p id="para2">HELLO I AM SHEJIN!!!</p>
+    <button id="fadeOutbtn">FADE OUT</button>
+    <button id="fadeInbtn">FADE IN</button>
+
+    <script>
+        $(document).ready(function(){
+            $("#fadeOutbtn").click(function(){
+                $("#para2").fadeOut(5000);  //slow or fast can be used ..
+            });
+
+            $("#fadeInbtn").click(function(){
+                $("#para2").fadeIn(6000);
+            });
+        })
+
+
+document.writeln("<br>===================================================================<br>");
+
+    </script>
+<!-- // ======================================================================================================================= -->
+
+
+
+
+
+
+    <p id="para3">THIS IS A PARAGRAPH!!!.....</p>
+
+    <button id="slideup">SLIDE UP</button>
+    <button id="slidedown">SLIDE DOWN</button>
+
+    <script>
+        $(document).ready(function(){
+            $("#slideup").click(function(){
+                $("#para3").slideUp();  //slow or fast can be used ..
+                
+            });
+
+             $("#slidedown").click(function(){
+                $("#para3").slideDown();  //slow or fast can be used ..
+                
+            });
+        });
+
+
+document.writeln("<br>===================================================================<br>");
+
+    </script>
+<!-- // ======================================================================================================================= -->
+
+
+
+    <p id="togglePara">THIS IS A TOGGLE</p>
+    <button id="togglebtn">TOGGLE</button>
+
+    <script>
+        $(document).ready(function(){
+            $("#togglebtn").click(function(){
+                $("#togglePara").toggle();
+            });
+        });
+
+
+document.writeln("<br>===================================================================<br>");
+
+    </script> 
+<!-- // ======================================================================================================================= -->
+
+
+
+
+    <p id="para4">HI THIS IS THAT!!!</p>
+    <button id="cssbtn">CLICK TO CHANGE</button>
+    <script>
+        $(document).ready(function(){
+            $("#cssbtn").click(function(){
+                $("#para4").css({
+                    "color":"green",
+                    "font-size":"20px",
+                    "background-color":"lightblue"
+                });
+
+            });
+        });
+
+
+document.writeln("<br>===================================================================<br>");
+
+    </script>
+<!-- // ======================================================================================================================= -->
+
+
+
+
+<div id="box2" style="width: 100px;height: 100px;background-color: aqua;position: relative;"></div>
+
+<button id="move">MOVE</button>
+<button id="moveback">MOVE BACK</button>
+
+<script>
+    $(document).ready(function(){
+        $("#move").click(function(){
+            $("#box2").animate({left:'250px', height:'150px',width:'150px'},1000)
+        });
+
+        $("#moveback").click(function(){
+            $("#box2").animate({left:'0px', height:'100px',width:'100px'},1000)
+        });
+    });
+   
+
+
+document.writeln("<br>===================================================================<br>");
+
+</script>
+<!-- // ======================================================================================================================= -->
+
+
+
+<p id="para5">HII I AM SHEJIN JOSEE</p>
+
+<button id="fadebtn">FADE TO 50%</button>
+<button id="fadeBackbtn">FADE BACK</button>
+
+<script>
+    $(document).ready(function(){
+        $("#fadebtn").click(function(){
+            $("#para5").fadeTo(1000, 0.3);
+        });
+
+        $("#fadeBackbtn").click(function(){
+            $("#para5").fadeTo(1000, 1);
+        });
+    });
+
+
+document.writeln("<br>===================================================================<br>");
+
+</script>
+<!-- // ======================================================================================================================= -->
+
+
+
+<div id="container">
+    <p>PARAGRAPH 1</p>
+</div>
+<button id="add">ADD NEW PARAGRPH</button>
+<button id="remove">REMOVE PARAGRPH</button>
+<script>
+$(document).ready(function(){
+    $("#add").click(function(){
+        $("#container").append("<p>NEW PARAGRAPH</p>");
+    })
+
+    $("#remove").click(function(){
+        $("#container p:last").remove();
+    })
+})
+
+
+
+document.writeln("<br>===================================================================<br>");
+
+</script>
+<!-- // ======================================================================================================================= -->
+
+
+
+
+<button id="app">append</button>
+<button id="pre">perpend</button>
+<button id="aft">after</button>
+<button id="bef">before</button>
+<p id="para6">WELCOME</p>
+<script>
+    $(document).ready(function(){
+        $("#app").click(function(){
+            $("#para6").append("hello");
+
+        });
+         $("#pre").click(function(){
+            $("#para6").prepend("hello");   
+        });
+         $("#aft").click(function(){
+            $("#para6").after("hi");
+        });
+         $("#bef").click(function(){
+            $("#para6").before("hello");
+        });
+    });
+
+
+
+document.writeln("<br>===================================================================<br>");
+    
+</script>
+<!-- // ======================================================================================================================= -->
+
+
+</body>
+</html>
