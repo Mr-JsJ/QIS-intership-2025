@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            AJAX SEARCH
+        </title>
+        <script src="jquery.js"></script>
+    </head>
+    <body>
+        <h2>AJAX</h2>
+        <input type="text" id="searchText" placeholder="Type to search..">
+        <div id="result">Result will appear here...</div>
+        <script>
+            $(document).ready(function(){
+                $("#searchText").on("input",function(){
+                    var keyword=$(this).val().toLowerCase();
+                    if(keyword===""){
+                        $("#result").html("Result will appear here.");
+                        return;
+                    }
+                    $.ajax({
+                        url:"data.txt",
+                        type:"GET",
+                        success:function(data){
+                            var lines=data.split("\n");
+                            var result="";
+
+                            for(var i=0;i<lines.length;i++){
+                                if(lines[i].toLowerCase().includes(keyword)){
+                                    result+=lines[i]+"<br>";
+                                }
+                            }
+                            $("#result").html(result !==""? result: "No matching data found");
+                        },
+                        error:function(error){
+                            $("#result").html("Error loading data");
+                        }
+                    });
+                });
+            });
+        </script>
+
+    </body>
+</html>
