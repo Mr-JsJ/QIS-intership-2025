@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+    <title>Thank You</title>
+    <link rel="stylesheet" href="css/navbar.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        body > .container-fluid:last-of-type {
+            margin-top: auto;
+        }
+        .thank-you-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-grow: 1;
+        }
+    </style>
+</head>
+<body>
+  
+    <div class="container thank-you-container">
+        <div class="text-center">
+            <h1 class="mb-4" style="color: #00bbff; font-size: 3rem;">✓ Thank You for Registering!</h1>
+            <a href="Home.html" class="btn btn-primary btn-lg">Go to Home Page</a>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <footer class="text-center py-3 bg-light">
+            <div>&copy; <span id="currentYear"></span> Charity.org All rights reserved.</div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+    <script>
+        (function() {
+            var year = document.getElementById('currentYear');
+            if (year) year.textContent = new Date().getFullYear();
+        })();
+    </script>
+</body>
+</html>

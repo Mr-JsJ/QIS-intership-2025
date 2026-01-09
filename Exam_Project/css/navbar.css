@@ -1,0 +1,30 @@
+.navbar {
+  position: fixed;
+  top: 0; 
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+body > .container-fluid:last-of-type {
+            margin-top: auto;
+        }
+
+footer{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+}        

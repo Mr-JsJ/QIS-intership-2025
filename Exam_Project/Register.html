@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        Home page
+    </title>
+    <link rel="stylesheet" href="css/navbar.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+<div class="container-fluid">
+    <header>
+        <div class="navbar">
+            <div  class="logo">Charity.org</div>
+            <div class="row">
+                <div class="col-lg"><a href="Home.html">Home</a></div>
+                <div class="col-lg"><a href="About.html">About</a></div>
+                <div class="col-lg"><a href="Contact.html">Contact</a></div>
+                <div class="col-lg"><a href="Register.html">Register</a></div>
+                
+            </div>
+        </div>
+    </header>
+</div>
+
+
+<div class="container my-5">        
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <h2 class="mb-4">Register with CHARITY.org </h2>
+            <form id="registerForm" >
+              
+                <div class="mb-3">
+                    <label for="fullName" class="form-label">Full Name</label>
+                    <input type="text" class="form-control" id="fullName" name="fullName" required>
+                </div>
+
+              
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email Address</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+
+            
+                <div class="mb-3">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="password" name="password" required>
+                </div>
+
+           
+                <div class="mb-3">
+                    <label class="form-label">Gender</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gender" id="male" value="Male" required>
+                        <label class="form-check-label" for="male">Male</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gender" id="female" value="Female" required>
+                        <label class="form-check-label" for="female">Female</label>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="country" class="form-label">Country</label>
+                    <select class="form-select" id="country" name="country" required>
+                        <option value="">-- Select a Country --</option>
+                        <option value="India">India</option>
+                        <option value="USA">USA</option>
+                        <option value="UK">United Kingdom</option>
+                        <option value="Canada">Canada</option>
+                        <option value="Australia">Australia</option>
+                    </select>
+                </div>
+
+             
+                <div class="mb-3">
+                    <label class="form-label">Interests (Charity Related)</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="interests" id="education" value="Education">
+                        <label class="form-check-label" >Education & Scholarships</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="interests" id="healthcare" value="Healthcare">
+                        <label class="form-check-label" >Healthcare Programs</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="interests" id="community" value="Community">
+                        <label class="form-check-label" >Community Development</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="interests" id="environment" value="Environment">
+                        <label class="form-check-label" >Environmental Causes</label>
+                    </div>
+                </div>
+
+            
+                <div class="mb-3">
+                    <label for="profilePic" class="form-label">Profile Picture</label>
+                    <input class="form-control" type="file" id="profilePic" name="profilePic" accept="image/*">
+                </div>
+
+                <div class="mb-3">
+                    <button type="submit" class="btn btn-primary me-2">Submit</button>
+                    <button type="reset" class="btn btn-secondary">Reset</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+        <footer class="text-center py-3 bg-light">
+            <div> &copy; <span id="currentYear"></span> Charity.org All rights reserved.<span><a href="Home.html">home</a></span></div>
+        </footer>
+    </div>
+
+<script>
+    (function(){
+        var year = document.getElementById('currentYear');
+        if(year) year.textContent = new Date().getFullYear();
+    })();
+
+    document.getElementById('registerForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        window.location.href = 'Thankyou.html';
+    });
+</script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
